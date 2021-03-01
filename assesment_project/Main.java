@@ -3,8 +3,7 @@ package assesment_project;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Welcome_page {
-	 final static String PATHNAME = "src/resources";
+public class Main {
 	public static void main(String[] args) throws IOException
 	{
 		
@@ -21,7 +20,7 @@ public class Welcome_page {
 	     System.out.println("*********************Developed by: Priyanka Singh**********************");
 	     System.out.println("*---------------------------------------------------------------------*");
 	     System.out.println();
-		Welcome_page obj = new Welcome_page();
+		Main obj = new Main();
 		obj.menu();
 		
 		
@@ -72,9 +71,4 @@ public class Welcome_page {
 	
 	}
 
-	
-
-
-	
-
-}
+	}

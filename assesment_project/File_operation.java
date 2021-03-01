@@ -11,7 +11,7 @@ Add_files obj1 = new Add_files();
 Delete_files obj2= new Delete_files();
 Search_files obj3 = new Search_files();
 
-Welcome_page a= new Welcome_page();
+Main a= new Main();
 
 		Scanner input = new Scanner(System.in);
 		 System.out.println(" 1. Add a file to existing directory");

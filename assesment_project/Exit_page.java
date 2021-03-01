@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exit_page {
 	public void exit()
 	{
-		Welcome_page a = new Welcome_page();
+		Main a = new Main();
 		Scanner input = new Scanner(System.in);
 		System.out.println("are you sure you want to exit, press Y/y orN/n");
 		String s = input.nextLine();

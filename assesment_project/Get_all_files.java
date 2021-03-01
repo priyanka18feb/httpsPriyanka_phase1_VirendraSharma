@@ -15,7 +15,7 @@ public class Get_all_files {
         System.out.println("Enter the path: ");
         String dirPath = scanner.nextLine(); // Takes the directory path as the user input
         File folder = new File(dirPath);
-        Welcome_page obj = new Welcome_page();
+       Main obj = new Main();
         int counter=0;
         
 		try
