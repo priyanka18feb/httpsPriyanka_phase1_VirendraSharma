@@ -46,7 +46,8 @@ public class Main {
      System.out.println(" 3. Close the application");
      System.out.println();
    
-
+try
+{
      System.out.println("Enter Your Choice:");
      num = input.nextInt();   
       
@@ -66,7 +67,13 @@ public class Main {
         menu();
         }
      
-  
+}
+catch(Exception e)
+{
+	
+	System.out.println("Not a valid input, plz try again:");
+	menu();
+}
      
 	
 	}
