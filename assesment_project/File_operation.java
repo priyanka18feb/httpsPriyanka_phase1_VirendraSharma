@@ -21,7 +21,8 @@ Main a= new Main();
          
          System.out.println();
          
-
+try
+{
          System.out.println("Enter Your Choice:");
          num = input.nextInt();   
          switch(num){    
@@ -41,5 +42,13 @@ Main a= new Main();
          file_operation();
          }
 	}
+	
+	catch(Exception e)
+	{
+		
+		System.out.println("Not a valid input, plz try again:");
+		file_operation();
+	}
 
+}
 }
