@@ -9,7 +9,6 @@ public class Delete_files {
     static String filename;
    public void delete_files() {
 
-    	//public static void main(String[] args) {
     		File_operation obj = new File_operation();
         	Scanner scanner = new Scanner( System.in );
         	System.out.println("Enter the path : ");
@@ -63,3 +62,4 @@ public class Delete_files {
     	
     }
             
+
